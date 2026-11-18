@@ -1,0 +1,15 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.flypost/flypost",
+  "title": "Flypost",
+  "description": "Write, design and schedule LinkedIn posts, carousels and articles in your own voice.",
+  "version": "1.0.0",
+  "websiteUrl": "https://www.flypost.io/help/connect-flypost-to-chatgpt-or-claude",
+  "icons": [
+    {"src": "https://www.flypost.io/favicon/web-app-manifest-512x512.png", "mimeType": "image/png", "sizes": ["512x512"]},
+    {"src": "https://www.flypost.io/favicon/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"]}
+  ],
+  "remotes": [
+    {"type": "streamable-http", "url": "https://mcp.flypost.io/mcp"}
+  ]
+}
