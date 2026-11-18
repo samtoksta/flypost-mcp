@@ -3,13 +3,32 @@
   "name": "io.flypost/flypost",
   "title": "Flypost",
   "description": "Write, design and schedule LinkedIn posts, carousels and articles in your own voice.",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "repository": {
+    "url": "https://github.com/samtoksta/flypost-mcp",
+    "source": "github"
+  },
   "websiteUrl": "https://www.flypost.io/help/connect-flypost-to-chatgpt-or-claude",
   "icons": [
-    {"src": "https://www.flypost.io/favicon/web-app-manifest-512x512.png", "mimeType": "image/png", "sizes": ["512x512"]},
-    {"src": "https://www.flypost.io/favicon/favicon.svg", "mimeType": "image/svg+xml", "sizes": ["any"]}
+    {
+      "src": "https://www.flypost.io/favicon/web-app-manifest-512x512.png",
+      "mimeType": "image/png",
+      "sizes": [
+        "512x512"
+      ]
+    },
+    {
+      "src": "https://www.flypost.io/favicon/favicon.svg",
+      "mimeType": "image/svg+xml",
+      "sizes": [
+        "any"
+      ]
+    }
   ],
   "remotes": [
-    {"type": "streamable-http", "url": "https://mcp.flypost.io/mcp"}
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.flypost.io/mcp"
+    }
   ]
 }
